@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">HirooSy OFC</h1>
 <p align="center">
-<a href="https://github.com/hiroosy"><img title="Author" src="https://img.shields.io/badge/HIROOSY-OFC-green.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/hiroosy"><img title="Author" src="https://img.shields.io/badge/HIROOSY-OFC-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
 
 ---------
