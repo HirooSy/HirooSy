@@ -19,7 +19,7 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
 ### Connect Me
 <p align="center">
   <a href="https://instagram.com/hiroosyy"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
-  <a href="https://wa.me/77058075655"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  <a href="https://wa.me/687790432"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   <a href="https://youtube.com/channel/UCzVM0co4CiC0uYk2raismFg"><img src="https://img.shields.io/badge/YouTube-HIROOSY CH-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000&link=https://youtube.com/channel/UCzVM0co4CiC0uYk2raismFg" /><br>
   <a href="https://www.youtube.com/channel/UCzVM0co4CiC0uYk2raismFg"><img src="https://img.shields.io/youtube/channel/subscribers/UCzVM0co4CiC0uYk2raismFg?style=social" /> <br>
 </p>
