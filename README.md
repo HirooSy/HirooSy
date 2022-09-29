@@ -13,7 +13,7 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
 </p>
 <p align="center">
   <a href="https://github.com/hiroosy"><img title="Author" src="https://img.shields.io/badge/HIROOSY-OFC-black.svg?style=for-the-badge&logo=github">
-  <a href="https://komarev.com/ghpvc/?username=hiroosy&color=blue&style=flat-square&label=Profile+Views"><img title="Watching" src="https://komarev.com/ghpvc/?username=hiroosy&color=green&style=flat-square&label=Profile+View"></a>
+  <a href="https://komarev.com/ghpvc/?username=hiroosy&color=blue&style=flat-square&label=Profile+Views"><img title="Watching" src="https://komarev.com/ghpvc/?username=hiroosy&color=blue&style=flat-square&label=Profile+View"></a>
 </p>
 
 ### Connect Me
