@@ -12,7 +12,7 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
   <a href="https://open.spotify.com/user/31nuzemgd72h4llo3dnl2pshegeu?si=qHWmVIfBQhy2KyH0dJgQ2Q&utm_source=copy-link" target="_blank"><img src="https://now-playing-on-spotify.vercel.app/api/spotify" alt="Spotify Now Playing" width="350"/></a>
 </p>
 <p align="center">
-  <a href="https://github.com/hiroosy"><img title="Author" src="https://img.shields.io/badge/HIROOSY-OFC-blue.svg?style=for-the-badge&logo=github">
+  <a href="https://github.com/hiroosy"><img title="Author" src="https://img.shields.io/badge/HIROOSY-OFC-black.svg?style=for-the-badge&logo=github">
   <a href="https://komarev.com/ghpvc/?username=hiroosy&color=blue&style=flat-square&label=Profile+Views"><img title="Watching" src="https://komarev.com/ghpvc/?username=hiroosy&color=green&style=flat-square&label=Profile+View"></a>
 </p>
 
