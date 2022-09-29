@@ -27,19 +27,27 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
 
 ---------
 
-### GITHUB
 ## ```Profile Stats```
 <p align="center"><a href="https://github.com/hiroosy"><img src="https://github-readme-stats.vercel.app/api?username=hiroosy&show_icons=true&theme=radical"></a></p>
 <p align="center"><a href="https://github.com/hiroosy"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hiroosy&theme=radical&layout=compact"></a></p> 
-
-![Github Trophy](https://github-profile-trophy.vercel.app/?username=hiroosy)
-
-## ```Repositories```
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=hiroosy&repo=baileys&theme=dark)
 
 <details>
   <summary><b>Github Stats</b></summary>
   
   ![Metrics](https://metrics.lecoq.io/hiroosy?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FJakarta)
-  
+
 </details>
+
+<details>
+  <summary><b>Trophy Stats</b></summary>
+
+![](https://github-profile-trophy.vercel.app/?username=hiroosy&row=2&column=3&layout=compact&theme=onedark)
+
+  <p align="center">
+   <img src="https://github-readme-streak-stats.herokuapp.com/?user=hiroosy" />
+</p>
+
+</details>
+
+## ```Repositories```
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=hiroosy&repo=baileys&theme=dark)
