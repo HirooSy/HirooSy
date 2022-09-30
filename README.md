@@ -1,7 +1,7 @@
 <p align="center">
     <img src="https://telegra.ph/file/e9e7878889b6da7bf5770.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
-<h1 align="center">© HIROOSY OFC.</h1>
+<h3 align="center">© HIROOSY OFC.</h3>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
@@ -16,32 +16,38 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
   <a href="https://komarev.com/ghpvc/?username=hiroosy&color=blue&style=flat-square&label=Profile+Views"><img title="Watching" src="https://komarev.com/ghpvc/?username=hiroosy&color=blue&style=flat-square&label=Profile+View"></a>
 </p>
 
-### Connect Me
+---------
+
 <p align="center">
-  <a href="https://instagram.com/hiroosyy"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
-  <a href="https://wa.me/687790432"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  <a href="https://youtube.com/channel/UCzVM0co4CiC0uYk2raismFg"><img src="https://img.shields.io/badge/YouTube-HIROOSY CH-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000&link=https://youtube.com/channel/UCzVM0co4CiC0uYk2raismFg" /><br>
-  <a href="https://www.youtube.com/channel/UCzVM0co4CiC0uYk2raismFg"><img src="https://img.shields.io/youtube/channel/subscribers/UCzVM0co4CiC0uYk2raismFg?style=social" /> <br>
+   📬 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗠𝗘
 </p>
 
+<p align="center">
+  <a href="https://instagram.com/hiroosyy"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white"/> 
+  <a href="https://wa.me/77781097455"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" /> <br>
+  <a href="https://youtube.com/channel/UCzVM0co4CiC0uYk2raismFg"><img src="https://img.shields.io/badge/YouTube-%231877F2.svg?&style=flat-square&logo=YouTube&logoColor=white" />
+  <a href="https://www.youtube.com/channel/UCzVM0co4CiC0uYk2raismFg"><img src="https://img.shields.io/youtube/channel/subscribers/UCzVM0co4CiC0uYk2raismFg?style=social" />
+</p>
 
 ---------
 
-## ```Profile Stats```
-<p align="center"><a href="https://github.com/hiroosy"><img src="https://github-readme-stats.vercel.app/api?username=hiroosy&show_icons=true&theme=radical"></a></p>
-<p align="center"><a href="https://github.com/hiroosy"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hiroosy&theme=radical&layout=compact"></a></p> 
+<h4 align="center">GITHUB STATS</h4>
 
 <details>
-  <summary><b>Github Stats</b></summary>
-  
+  <summary><b2>👤 • PROFILE</b2></summary>
+
+  ![](https://github-readme-stats.vercel.app/api?username=hiroosy&show_icons=true&theme=radical)
+
+  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=hiroosy&theme=radical&layout=compact)
+
   ![Metrics](https://metrics.lecoq.io/hiroosy?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FJakarta)
 
 </details>
 
 <details>
-  <summary><b>Trophy Stats</b></summary>
+  <summary><b2>🏆 • TROPHY</b2></summary>
 
-![](https://github-profile-trophy.vercel.app/?username=hiroosy&row=2&column=3&layout=compact&theme=onedark)
+  ![](https://github-profile-trophy.vercel.app/?username=hiroosy&row=2&column=3&layout=compact&theme=onedark)
 
   <p align="center">
    <img src="https://github-readme-streak-stats.herokuapp.com/?user=hiroosy" />
@@ -49,5 +55,8 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
 
 </details>
 
-## ```Repositories```
+---------
+
+<h4 align="center">Repositories</h4>
+
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=hiroosy&repo=baileys&theme=dark)
