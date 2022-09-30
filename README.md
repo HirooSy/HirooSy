@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://telegra.ph/file/e9e7878889b6da7bf5770.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
+    <img src="https://i.ibb.co/8YWFDrd/9c9cd1c20ca5723544c70558d61420f5.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 <h3 align="center">© HIROOSY OFC.</h3>
 
