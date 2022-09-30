@@ -18,7 +18,7 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
 
 ---------
 
-<details><summary><b1>..........📬 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗠𝗘..........</b1></summary>
+<details><summary><b1>··········📬 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗠𝗘··········◀︎</b1></summary>
 
 ```
 # バイオデータ ◗
