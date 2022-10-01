@@ -16,13 +16,13 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
 
 ```
 # バイオデータ ◗
-    • 名前：レッタ
-    • 性別: 女の子
-    • 年生：8
-    • 誕生日：10月5日
-    • 年齢：13歳
-    • 趣味：音楽鑑賞、ゲーム
-    • 人生の目標：世界の果てまでロリを探す
+     • 名前：レッタ
+     • 性別: 女の子
+     • 年生：8
+     • 誕生日：10月5日
+     • 年齢：13歳
+     • 趣味：音楽鑑賞、ゲーム
+     • 人生の目標：世界の果てまでロリを探す
 
  # ソーシャルメディア  ◗
     • 𝚐𝚒𝚝𝚑𝚞𝚋：@𝚑𝚒𝚛𝚘𝚘𝚜𝚢
@@ -30,6 +30,7 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
     • 𝚒𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖：@𝚑𝚒𝚛𝚘𝚘𝚜𝚢𝚢
     • 𝚎𝚖𝚊𝚒𝚕：𝚑𝚒𝚛𝚘𝚘𝚜𝚢10@𝚐𝚖𝚊𝚒𝚕.𝚌𝚘𝚖
     • 𝚢𝚘𝚞𝚝𝚞𝚋𝚎：@Hiroosy ofc
+    • 𝚝𝚠𝚒𝚝𝚝𝚎𝚛：@𝙷𝚒𝚛𝚘𝚘𝚜𝚢𝚢
     • 𝚍𝚒𝚜𝚌𝚘𝚛𝚍：#6016
 ```
 
