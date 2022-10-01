@@ -3,8 +3,6 @@
 </p>
 <h3 align="center">© HIROOSY OFC.</h3>
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
 > **Warning**:
 All repositories here are copyrighted, if you claim that it's yours.. we will act immediately
 
