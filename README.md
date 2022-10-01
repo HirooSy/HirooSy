@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://i.ibb.co/8YWFDrd/9c9cd1c20ca5723544c70558d61420f5.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
+    <img src="https://i.ibb.co/8YWFDrd/9c9cd1c20ca5723544c70558d61420f5.jpg" width="78%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 <h3 align="center">© HIROOSY OFC.</h3>
 
@@ -10,10 +10,6 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
 
 <p align="center">
   <a href="https://open.spotify.com/user/31nuzemgd72h4llo3dnl2pshegeu?si=qHWmVIfBQhy2KyH0dJgQ2Q&utm_source=copy-link" target="_blank"><img src="https://now-playing-on-spotify.vercel.app/api/spotify" alt="Spotify Now Playing" width="350"/></a>
-</p>
-<p align="center">
-  <a href="https://github.com/hiroosy"><img title="Author" src="https://img.shields.io/badge/HIROOSY-OFC-black.svg?style=for-the-badge&logo=github">
-  <a href="https://komarev.com/ghpvc/?username=hiroosy&color=blue&style=flat-square&label=Profile+Views"><img title="Watching" src="https://komarev.com/ghpvc/?username=hiroosy&color=blue&style=flat-square&label=Profile+View"></a>
 </p>
 
 ---------
@@ -53,16 +49,6 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
 
 <h5 align="center">GITHUB STATS</h5>
 
-  <a href="https://github.com/hiroosy"><img src="https://github-readme-stats.vercel.app/api?username=hiroosy&show_icons=true&theme=radical"/>
+  <a href="https://github.com/hiroosy"><img src="https://github-readme-stats.vercel.app/api?username=hiroosy&show_icons=true&theme=tokyonight"/>
 
-  <a href="https://github.com/hiroosy"><img src="https://metrics.lecoq.io/hiroosy?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2FJakarta"/>
-
-<h6 align="canter">
-  <img src="https://github-profile-trophy.vercel.app/?username=hiroosy&row=2&column=3&layout=compact&theme=onedark"/>
-</h6>
-
----------
-
-<h4 align="center">Repositories</h4>
-
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=hiroosy&repo=baileys&theme=dark)
+  <a href="https://github.com/hiroosy"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hiroosy&count_private=true&show_icons=true&theme=tokyonight"/>
