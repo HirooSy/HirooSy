@@ -38,6 +38,7 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
 
 <p align="center">
   <a href="https://instagram.com/hiroosyy"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white"/> 
+  <a href="https://twitter.com/hiroosyy"><img src="https://img.shields.io/twitter/url?color=gray&label=Twetter&logo=twitter&logoColor=blue&style=flat-square&url=https%3A%2F%2Fgithub.com%2FTobyG74%2FTobyG74%2Fblob%2Fmain%2Ftwitter.png%3Fraw%3Dtrue"/>
   <a href="https://wa.me/77781097455"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" /> <br>
   <a href="https://youtube.com/channel/UCzVM0co4CiC0uYk2raismFg"><img src="https://img.shields.io/badge/YouTube-%231877F2.svg?&style=flat-square&logo=YouTube&logoColor=white" />
   <a href="https://www.youtube.com/channel/UCzVM0co4CiC0uYk2raismFg"><img src="https://img.shields.io/youtube/channel/subscribers/UCzVM0co4CiC0uYk2raismFg?style=social" />
