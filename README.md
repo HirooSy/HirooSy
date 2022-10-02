@@ -31,19 +31,19 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
     • 𝚎𝚖𝚊𝚒𝚕：𝚑𝚒𝚛𝚘𝚘𝚜𝚢10@𝚐𝚖𝚊𝚒𝚕.𝚌𝚘𝚖
     • 𝚢𝚘𝚞𝚝𝚞𝚋𝚎：@Hiroosy ofc
     • 𝚝𝚠𝚒𝚝𝚝𝚎𝚛：@𝙷𝚒𝚛𝚘𝚘𝚜𝚢𝚢
-    • 𝚍𝚒𝚜𝚌𝚘𝚛𝚍：#6016
+    • 𝚍𝚒𝚜𝚌𝚘𝚛𝚍：HiroosyDev#6016
 ```
 
 </details>
 
-
 <p align="center">
-  <a href="https://instagram.com/hiroosyy"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" width="25%"/> 
+  <a href="https://discord.gg/DSVeAeaTRS"><img src="https://img.shields.io/badge/Discord-%231877F2.svg?&style=flat-square&logo=Discord&logoColor=white" width="25%"/>
   <a href="https://twitter.com/hiroosyy"><img src="https://img.shields.io/twitter/url?color=gray&label=Twitter&logo=twitter&logoColor=blue&style=flat-square&url=https%3A%2F%2Fgithub.com%2FTobyG74%2FTobyG74%2Fblob%2Fmain%2Ftwitter.png%3Fraw%3Dtrue" width="25%"/>
-  <a href="https://wa.me/77781097455"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" width="25%"/><br>
-  <a href="https://github.com/hiroosy"><img title="Author" src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" width= "23%"/>
-  <a href="https://youtube.com/channel/UCzVM0co4CiC0uYk2raismFg"><img src="https://img.shields.io/badge/YouTube-%231877F2.svg?&style=flat-square&logo=YouTube&logoColor=white" width="25%"/>
-  <a href="https://www.youtube.com/channel/UCzVM0co4CiC0uYk2raismFg"><img src="https://img.shields.io/youtube/channel/subscribers/UCzVM0co4CiC0uYk2raismFg?style=social" width="25%"/>
+  <a href="https://github.com/hiroosy"><img title="Author" src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" width= "23%"/><br>
+  <a href="https://instagram.com/hiroosyy"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" width="20%"/> 
+  <a href="https://wa.me/77781097455"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" width="20%"/>
+  <a href="https://youtube.com/channel/UCzVM0co4CiC0uYk2raismFg"><img src="https://img.shields.io/twitter/url?color=gray&label=Youtube&logo=YouTube&logoColor=red&style=flat-square&url=https%3A%2F%2Fgit" width="20%"/> 
+  <a href="https://www.youtube.com/channel/UCzVM0co4CiC0uYk2raismFg"><img src="https://img.shields.io/youtube/channel/subscribers/UCzVM0co4CiC0uYk2raismFg?style=social" width="23%"/>
 </p>
 
 ---------
