@@ -20,7 +20,7 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
      • 性別: 女の子
      • 年生：8
      • 誕生日：10月5日
-     • 年齢：13歳
+     • 年齢：14歳
      • 趣味：音楽鑑賞、ゲーム
      • 人生の目標：世界の果てまでロリを探す
 
@@ -41,7 +41,7 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
   <a href="https://twitter.com/hiroosyy"><img src="https://img.shields.io/twitter/url?color=gray&label=Twitter&logo=twitter&logoColor=blue&style=flat-square&url=https%3A%2F%2Fgithub.com%2FTobyG74%2FTobyG74%2Fblob%2Fmain%2Ftwitter.png%3Fraw%3Dtrue" width="25%"/>
   <a href="https://github.com/hiroosy"><img title="Author" src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" width= "23%"/><br>
   <a href="https://instagram.com/hiroosyy"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" width="20%"/> 
-  <a href="https://wa.me/77781097455"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" width="20%"/>
+  <a href="https://wa.me/996999991832"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" width="20%"/>
   <a href="https://youtube.com/channel/UCzVM0co4CiC0uYk2raismFg"><img src="https://img.shields.io/twitter/url?color=gray&label=Youtube&logo=YouTube&logoColor=red&style=flat-square&url=https%3A%2F%2Fgit" width="20%"/> 
   <a href="https://www.youtube.com/channel/UCzVM0co4CiC0uYk2raismFg"><img src="https://img.shields.io/youtube/channel/subscribers/UCzVM0co4CiC0uYk2raismFg?style=social" width="23%"/>
 </p>
