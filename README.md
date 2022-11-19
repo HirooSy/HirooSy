@@ -1,20 +1,16 @@
-<p align=center> <img src="https://i.ibb.co/8YWFDrd/9c9cd1c20ca5723544c70558d61420f5.jpg" width="70%" style="margin-left: auto;margin-right: auto;display: block;"> 
-<h3 align=center> HIROOSY OFFICIAL </h3> </p>
+<h4> <img src="https://i.ibb.co/7j2795D/Untitled144-20221119075441.png" width="25%"> HIROOSY OFFICIAL <img src="https://i.ibb.co/DCqkX4v/Untitled144-20221119080143.png" width="8%"> </h4>
 
+--------
 <p align="center">
   <a href="https://open.spotify.com/user/31nuzemgd72h4llo3dnl2pshegeu?si=qHWmVIfBQhy2KyH0dJgQ2Q&utm_source=copy-link" target="_blank"><img src="https://now-playing-on-spotify.vercel.app/api/spotify" alt="Spotify Now Playing" width="350"/></a>
 </p>
-
---------
-
-<h5 align=center>CONTACT ME</h5>
-
-<p align="center">
 
   <a href="https://twitter.com/hiroosyy"><img src="https://img.shields.io/twitter/url?color=gray&label=Twitter&logo=twitter&logoColor=blue&style=flat-square&url=https%3A%2F%2Fgithub.com%2FTobyG74%2FTobyG74%2Fblob%2Fmain%2Ftwitter.png%3Fraw%3Dtrue" width="30%"/>
   <a href="https://instagram.com/hiroosyy"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" width="30%"/> 
   <a href="https://wa.me/996999991832"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" width="30%"/>
 </p>
+
+> HI, I'm Letta. I programer javascript and other languages.
 
 --------
 
