@@ -10,34 +10,11 @@ All repositories here are copyrighted, if you claim that it's yours.. we will ac
   <a href="https://open.spotify.com/user/31nuzemgd72h4llo3dnl2pshegeu?si=qHWmVIfBQhy2KyH0dJgQ2Q&utm_source=copy-link" target="_blank"><img src="https://now-playing-on-spotify.vercel.app/api/spotify" alt="Spotify Now Playing" width="350"/></a>
 </p>
 
----------
-
-<details><summary><b1>··················📬 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗠𝗘··················◀︎</b1></summary>
-
-```
-# バイオデータ ◗
-     • 名前：レッタ
-     • 性別: 女の子
-     • 年生：8
-     • 誕生日：10月5日
-     • 年齢：14歳
-     • 趣味：音楽鑑賞、ゲーム
-     • 人生の目標：世界の果てまでロリを探す
-
- # ソーシャルメディア  ◗
-    • 𝚐𝚒𝚝𝚑𝚞𝚋：@𝚑𝚒𝚛𝚘𝚘𝚜𝚢
-    • teams: @hyro-teams
-    • 𝚒𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖：@𝚑𝚒𝚛𝚘𝚘𝚜𝚢𝚢
-    • 𝚎𝚖𝚊𝚒𝚕：𝚑𝚒𝚛𝚘𝚘𝚜𝚢10@𝚐𝚖𝚊𝚒𝚕.𝚌𝚘𝚖
-    • 𝚢𝚘𝚞𝚝𝚞𝚋𝚎：@Hiroosy ofc
-    • 𝚝𝚠𝚒𝚝𝚝𝚎𝚛：@𝙷𝚒𝚛𝚘𝚘𝚜𝚢𝚢
-    • 𝚍𝚒𝚜𝚌𝚘𝚛𝚍：HiroosyDev#6016
-```
-
-</details>
+------- 
+<h2>📬 | Contact :</h2>
 
 <p align="center">
-  <a href="https://discord.gg/DSVeAeaTRS"><img src="https://img.shields.io/badge/Discord-%231877F2.svg?&style=flat-square&logo=Discord&logoColor=white" width="25%"/>
+
   <a href="https://twitter.com/hiroosyy"><img src="https://img.shields.io/twitter/url?color=gray&label=Twitter&logo=twitter&logoColor=blue&style=flat-square&url=https%3A%2F%2Fgithub.com%2FTobyG74%2FTobyG74%2Fblob%2Fmain%2Ftwitter.png%3Fraw%3Dtrue" width="25%"/>
   <a href="https://github.com/hiroosy"><img title="Author" src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" width= "23%"/><br>
   <a href="https://instagram.com/hiroosyy"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" width="20%"/> 
