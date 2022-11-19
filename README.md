@@ -1,4 +1,4 @@
-<h4> <img src="https://i.ibb.co/7j2795D/Untitled144-20221119075441.png" width="25%"> HIROOSY OFFICIAL <img src="https://i.ibb.co/DCqkX4v/Untitled144-20221119080143.png" width="8%"> </h4>
+<h4 align=center> <img src="https://i.ibb.co/7j2795D/Untitled144-20221119075441.png" width="25%"> HIROOSY OFFICIAL <img src="https://i.ibb.co/DCqkX4v/Untitled144-20221119080143.png" width="8%"> </h4>
 
 --------
 <p align="center">
@@ -9,8 +9,6 @@
   <a href="https://instagram.com/hiroosyy"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" width="30%"/> 
   <a href="https://wa.me/996999991832"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" width="30%"/>
 </p>
-
-> HI, I'm Letta. I programer javascript and other languages.
 
 --------
 
