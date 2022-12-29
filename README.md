@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/HirooSy/hiroosy/blob/main/ezgif.com-gif-maker.gif"/>
+  <img weight="130%" src="https://github.com/HirooSy/hiroosy/blob/main/ezgif.com-gif-maker.gif"/>
 </p>
 
 <p align="center">
