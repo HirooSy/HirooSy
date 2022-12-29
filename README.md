@@ -4,12 +4,13 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/HirooSy/hiroosy/blob/main/neko-aesthetic.gif"/>
+  <img src="https://github.com/HirooSy/hiroosy/blob/main/ezgif.com-gif-maker.gif"/>
 </p>
 
-  <a href="https://twitter.com/hiroosyy"><img src="https://img.shields.io/twitter/url?color=gray&label=Twitter&logo=twitter&logoColor=blue&style=flat-square&url=https%3A%2F%2Fgithub.com%2FTobyG74%2FTobyG74%2Fblob%2Fmain%2Ftwitter.png%3Fraw%3Dtrue" width="30%"/>
-  <a href="https://instagram.com/hiroosyy"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" width="30%"/> 
-  <a href="https://wa.me/996999991832"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" width="30%"/>
+<p align="center">
+  <a href="https://instagram.com/hiroosyy"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" width="45%"/> 
+  <a href="https://wa.me/996999991832"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="43%"/></br><a href="https://github.com/Hiroosy"><img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" /> 
+
 </p>
 
 --------
