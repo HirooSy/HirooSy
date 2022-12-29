@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://i.ibb.co/gzBsdPL/neko-aesthetic.gif"/>
+  <img src="https://telegra.ph/file/c00bf95a8f8ddc56656ec.mp4"/>
 </p>
 
   <a href="https://twitter.com/hiroosyy"><img src="https://img.shields.io/twitter/url?color=gray&label=Twitter&logo=twitter&logoColor=blue&style=flat-square&url=https%3A%2F%2Fgithub.com%2FTobyG74%2FTobyG74%2Fblob%2Fmain%2Ftwitter.png%3Fraw%3Dtrue" width="30%"/>
