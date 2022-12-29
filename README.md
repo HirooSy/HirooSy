@@ -1,6 +1,9 @@
-<h4 align=center> <img src="https://i.ibb.co/7j2795D/Untitled144-20221119075441.png" width="25%"> HIROOSY OFFICIAL <img src="https://i.ibb.co/DCqkX4v/Untitled144-20221119080143.png" width="8%"> </h4>
+<p align=center> <img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" width="25%"> 𝗛𝗜𝗥𝗢𝗢𝗦𝗬 ᴏғғɪᴄɪᴀʟ <img src="https://i.ibb.co/DCqkX4v/Untitled144-20221119080143.png" width="5%"> </h4>
+<p align="center">
+  <a href="https://instagram.com/hiroosyy"><img src="http://readme-typing-svg.herokuapp.com?color=ffffff&center=false&vCenter=true&multiline=true&lines=──────────────────────" alt="hiroosy">
+</p>
 
---------
+
 <p align="center">
   <a href="https://open.spotify.com/user/31nuzemgd72h4llo3dnl2pshegeu?si=qHWmVIfBQhy2KyH0dJgQ2Q&utm_source=copy-link" target="_blank"><img src="https://now-playing-on-spotify.vercel.app/api/spotify" alt="Spotify Now Playing" width="350"/></a>
 </p>
@@ -12,10 +15,8 @@
 
 --------
 
-<h5 align="center">GITHUB STATS</h5>
+<p align="center">◦ 𝗚𝗜𝗧𝗛𝗨𝗕 sᴛᴀᴛs ◦</h5>
 
-  <a href="https://github.com/hiroosy"><img src="https://github-readme-stats.vercel.app/api?username=hiroosy&show_icons=true&theme=tokyonight"/>
+  <a href="https://github.com/hiroosy"><img src="https://github-readme-stats.vercel.app/api?username=hiroosy&show_icons=true&theme=light"/>
 
-  <a href="https://github.com/hiroosy"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hiroosy&count_private=true&show_icons=true&theme=tokyonight"/>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Hiroosy&theme=dark&background=0d1117&date_format=M%20j%5B%2C%20Y%5D" alt="adam-pw" /></p>
+  <a href="https://github.com/hiroosy"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NevtBotz&theme=light&layout=compact"/>
