@@ -13,6 +13,6 @@
 
 <p align="center">◦ 𝗚𝗜𝗧𝗛𝗨𝗕 sᴛᴀᴛs ◦</h5>
 
-  <a href="https://github.com/hiroosy"><img src="https://github-readme-stats.vercel.app/api?username=hiroosy&show_icons=true&theme=tokyonight"/>
+  <a href="https://github.com/hiroosy"><img src="https://github-readme-stats.vercel.app/api?username=HirooSy&show_icons=true&theme=tokyonight"/>
 
-  <a href="https://github.com/hiroosy"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NevtBotz&theme=tokyonight&layout=compact"/>
+  <a href="https://github.com/hiroosy"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HirooSy&theme=tokyonight&layout=compact"/>
