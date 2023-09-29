@@ -15,7 +15,7 @@
 > - ↻ㅤㅤ⊲ㅤㅤⅡㅤㅤ⊳ㅤㅤ↺ㅤ
 
   <a href="https://instagram.com/hiroosyy"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" width="25%"/> 
-  <a href="https://wa.me/996998122380"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="25%"/>
+  <a href="https://wa.me/27630902710"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="25%"/>
   <a href="https://github.com/Hiroosy"><img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" width="19%"/> 
   <a href="https://saweria.co/hiroosyDev"><img src="https://img.shields.io/badge/Saweria-FFA500?style=for-the-badge&logo=Saweria&logoColor=white" width="18%"/>
 </p>
