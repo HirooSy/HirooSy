@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive</title>
+    <style>
+        body { margin:0; padding:0; display:flex; justify-content:center; align-items:center; min-height:100vh; background:white; cursor:none; }
+        #app { display:flex; flex-direction:column; align-items:center; gap:10px; }
+        #container { border:1px solid #000; width:300px; height:300px; position:relative; overflow:hidden; }
+        .image-layer { width:100%; height:100%; position:absolute; top:0; left:0; object-fit:cover; opacity:0; transition:opacity 0.1s; pointer-events:none; }
+        #image-normal { opacity:1; }
+        #hover-area { position:absolute; top:0; left:0; width:70%; height:50%; z-index:2; pointer-events:auto; }
+        #click-zone { position:absolute; top:50%; left:50%; width:40px; height:40px; background:rgba(255,0,0,0); transform:translate(-50%,-50%); z-index:3; pointer-events:auto; }
+        .pointer { position:fixed; width:20px; height:20px; pointer-events:none; z-index:9999; opacity:0; transition:opacity 0.3s; transform:translate(-50%,-50%); }
+        .heart { position:fixed; width:15px; height:15px; pointer-events:none; z-index:9998; opacity:0; font-size:15px; text-align:center; }
+        .text-top, .text-bottom { text-align:center; margin:0; pointer-events:none; }
+        .text-top { font-size:16px; }
+        .text-bottom { font-size:14px; color:#666; }
+        /* Progress bar styles */
+        #progress-container { position:absolute; bottom:10px; left:50%; transform:translateX(-50%); width:50%; height:8px; background:rgba(0,0,0,0.1); border-radius:4px; overflow:hidden; z-index:5; display:none; }
+        #progress-bar { height:100%; width:0%; background:linear-gradient(90deg, #ff6b6b, #ffa8a8); transition:width 0.1s; border-radius:4px; }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <p class="text-top">pat this baldass car</p>
+        <div id="container">
+            <div id="image-container">
+                <img id="image-normal" class="image-layer" src="https://i.ibb.co.com/xSXsxthW/Untitled962-20260209120320.png">
+                <img id="image-hover" class="image-layer" src="https://i.ibb.co.com/hQyyvZ8/Untitled962-20260209120312.png">
+                <img id="image-click" class="image-layer" src="https://i.ibb.co.com/jvbVVKYS/Untitled962-20260209120316.png">
+                <img id="image-full" class="image-layer" src="https://i.ibb.co.com/ccqck8R5/Untitled964-20260209195740.png">
+                <div id="hover-area"></div>
+                <div id="progress-container">
+                    <div id="progress-bar"></div>
+                </div>
+            </div>
+            <div id="click-zone"></div>
+        </div>
+        <p class="text-bottom">yes he's bald</p>
+    </div>
+
+    <script>
+        const IMGS = {
+            normal: "https://i.ibb.co.com/xSXsxthW/Untitled962-20260209120320.png",
+            hover: "https://i.ibb.co.com/hQyyvZ8/Untitled962-20260209120312.png",
+            click: "https://i.ibb.co.com/jvbVVKYS/Untitled962-20260209120316.png",
+            full: "https://i.ibb.co.com/ccqck8R5/Untitled964-20260209195740.png"
+        };
+        
+        const images = {
+            normal: document.getElementById('image-normal'),
+            hover: document.getElementById('image-hover'),
+            click: document.getElementById('image-click'),
+            full: document.getElementById('image-full')
+        };
+        const hoverArea = document.getElementById('hover-area');
+        const clickZone = document.getElementById('click-zone');
+        const progressContainer = document.getElementById('progress-container');
+        const progressBar = document.getElementById('progress-bar');
+        
+        let clicked = false, hovering = false, hoverTimer = null, inHoverArea = false, clickCooldown = false;
+        const isTouch = 'ontouchstart' in window;
+        
+        const activePointers = new Map();
+        const touchStates = new Map();
+        const cleanupTimers = new Map();
+        const hearts = new Set();
+        let heartInterval = null;
+        
+        // Progress bar variables
+        let progress = 0;
+        let progressInterval = null;
+        let progressDelayTimer = null;
+        const PROGRESS_INCREMENT = 1; // % per interval - changed from 0.5 to 1
+        const PROGRESS_INTERVAL = 50; // ms
+        const PROGRESS_DELAY = 800; // ms delay before progress bar appears
+        
+        Object.values(IMGS).forEach(src => new Image().src = src);
+        
+        function createPointer(id) {
+            const pointer = document.createElement('div');
+            pointer.className = 'pointer';
+            pointer.id = `pointer-${id}`;
+            pointer.innerHTML = `<img src="https://i.ibb.co.com/fYVRdHrn/Untitled962-20260209124256.png" style="width:100%;height:100%;">`;
+            document.body.appendChild(pointer);
+            return pointer;
+        }
+        
+        function createHeart(x, y) {
+            const heart = document.createElement('div');
+            heart.className = 'heart';
+            heart.innerHTML = '❤️';
+            heart.style.left = x + 'px';
+            heart.style.top = y + 'px';
+            heart.style.opacity = '0.8';
+            heart.style.transform = `translate(-50%, -50%) scale(0.5)`;
+            
+            const startX = x, startY = y;
+            const distance = 30 + Math.random() * 40;
+            
+            let progress = 0;
+            function animateHeart() {
+                progress += 0.02;
+                if (progress >= 1) {
+                    heart.remove();
+                    hearts.delete(heart);
+                    return;
+                }
+                
+                const currentX = startX + Math.sin(progress * Math.PI * 2) * 10;
+                const currentY = startY - progress * distance;
+                const scale = 0.9 + progress * 0.5;
+                const opacity = 0.8 * (1 - progress);
+                
+                heart.style.left = currentX + 'px';
+                heart.style.top = currentY + 'px';
+                heart.style.opacity = opacity.toString();
+                heart.style.transform = `translate(-50%, -50%) scale(${scale})`;
+                
+                requestAnimationFrame(animateHeart);
+            }
+            
+            document.body.appendChild(heart);
+            hearts.add(heart);
+            requestAnimationFrame(animateHeart);
+            
+            setTimeout(() => {
+                if (heart.parentNode) {
+                    heart.remove();
+                    hearts.delete(heart);
+                }
+            }, 1500);
+            
+            return heart;
+        }
+        
+        function updateHearts(isHovering, x, y) {
+            if (isHovering && !heartInterval) {
+                heartInterval = setInterval(() => {
+                    if (hovering && inHoverArea) {
+                        const count = 1 + Math.floor(Math.random() * 2);
+                        for (let i = 0; i < count; i++) {
+                            const offsetX = (Math.random() - 0.5) * 30;
+                            const offsetY = (Math.random() - 0.5) * 20;
+                            createHeart(x + offsetX, y + offsetY);
+                        }
+                    }
+                }, 300);
+            } else if (!isHovering && heartInterval) {
+                clearInterval(heartInterval);
+                heartInterval = null;
+            }
+        }
+        
+        function updatePointer(id, x, y) {
+            let pointer = activePointers.get(id);
+            if (!pointer) {
+                pointer = createPointer(id);
+                activePointers.set(id, pointer);
+            }
+            pointer.style.left = x + 'px';
+            pointer.style.top = y + 'px';
+            pointer.style.opacity = '1';
+            
+            const timer = cleanupTimers.get(id);
+            if (timer) {
+                clearTimeout(timer);
+                cleanupTimers.delete(id);
+            }
+        }
+        
+        function removePointer(id) {
+            const pointer = activePointers.get(id);
+            if (pointer) {
+                const existingTimer = cleanupTimers.get(id);
+                if (existingTimer) clearTimeout(existingTimer);
+                
+                pointer.style.opacity = '0';
+                
+                const cleanupTimer = setTimeout(() => {
+                    if (pointer && pointer.parentNode) {
+                        pointer.parentNode.removeChild(pointer);
+                    }
+                    activePointers.delete(id);
+                    cleanupTimers.delete(id);
+                    if (touchStates.has(id)) {
+                        touchStates.delete(id);
+                    }
+                }, 300);
+                
+                cleanupTimers.set(id, cleanupTimer);
+            }
+        }
+        
+        function cleanupAllPointers() {
+            for (const timer of cleanupTimers.values()) clearTimeout(timer);
+            cleanupTimers.clear();
+            
+            for (const [id, pointer] of activePointers) {
+                if (pointer && pointer.parentNode) {
+                    pointer.parentNode.removeChild(pointer);
+                }
+            }
+            
+            hearts.forEach(heart => {
+                if (heart.parentNode) heart.parentNode.removeChild(heart);
+            });
+            hearts.clear();
+            
+            if (heartInterval) {
+                clearInterval(heartInterval);
+                heartInterval = null;
+            }
+            
+            activePointers.clear();
+            touchStates.clear();
+        }
+        
+        function showImage(type) {
+            images.normal.style.opacity = type === 'normal' ? '1' : '0';
+            images.hover.style.opacity = type === 'hover' ? '1' : '0';
+            images.click.style.opacity = type === 'click' ? '1' : '0';
+            images.full.style.opacity = type === 'full' ? '1' : '0';
+        }
+        
+        function isInRect(x, y, element) {
+            const r = element.getBoundingClientRect();
+            return x >= r.left && x <= r.right && y >= r.top && y <= r.bottom;
+        }
+        
+        function handleHover(enter) {
+            clearTimeout(hoverTimer);
+            clearTimeout(progressDelayTimer);
+            
+            if (!clicked) {
+                hoverTimer = setTimeout(() => {
+                    showImage(enter ? 'hover' : 'normal');
+                    hovering = enter;
+                    
+                    // Handle progress bar with delay
+                    if (enter) {
+                        // Start delay timer to show progress bar after 800ms
+                        progressDelayTimer = setTimeout(() => {
+                            if (hovering && inHoverArea && !clicked) {
+                                progressContainer.style.display = 'block';
+                                startProgress();
+                            }
+                        }, PROGRESS_DELAY);
+                    } else {
+                        // Hide progress bar immediately when leaving
+                        progressContainer.style.display = 'none';
+                        stopProgress();
+                        resetProgress();
+                    }
+                    
+                    if (!enter) {
+                        for (const [id, state] of touchStates) {
+                            if (state && !state.inHoverArea) {
+                                removePointer(id);
+                            }
+                        }
+                    }
+                }, enter ? 50 : 30);
+            }
+        }
+        
+        // Progress bar functions
+        function startProgress() {
+            if (progressInterval) clearInterval(progressInterval);
+            
+            progressInterval = setInterval(() => {
+                if (hovering && inHoverArea && !clicked) {
+                    progress += PROGRESS_INCREMENT;
+                    if (progress > 100) progress = 100;
+                    progressBar.style.width = progress + '%';
+                    
+                    // If progress reaches 100%, trigger full effect
+                    if (progress >= 100) {
+                        triggerProgressFull();
+                    }
+                }
+            }, PROGRESS_INTERVAL);
+        }
+        
+        function stopProgress() {
+            if (progressInterval) {
+                clearInterval(progressInterval);
+                progressInterval = null;
+            }
+            clearTimeout(progressDelayTimer);
+        }
+        
+        function resetProgress() {
+            progress = 0;
+            progressBar.style.width = '0%';
+            clearTimeout(progressDelayTimer);
+        }
+        
+        function triggerProgressFull() {
+            clearTimeout(hoverTimer);
+            stopProgress();
+            resetProgress();
+            
+            showImage('full');
+            clicked = true;
+            hovering = false;
+            inHoverArea = false;
+            updateHearts(false);
+            
+            // Clean up all pointers
+            cleanupAllPointers();
+            
+            // Hide progress bar
+            progressContainer.style.display = 'none';
+            
+            // Keep full image for 3 seconds
+            setTimeout(() => {
+                showImage('normal');
+                clicked = false;
+                clickCooldown = false;
+            }, 3000);
+        }
+        
+        // Mouse events
+        document.addEventListener('mousemove', e => {
+            updatePointer('mouse', e.clientX, e.clientY);
+            const inArea = isInRect(e.clientX, e.clientY, hoverArea);
+            
+            if (inArea && !inHoverArea) {
+                inHoverArea = true;
+                handleHover(true);
+                updateHearts(true, e.clientX, e.clientY);
+            } else if (!inArea && inHoverArea) {
+                inHoverArea = false;
+                handleHover(false);
+                updateHearts(false);
+                removePointer('mouse');
+            } else if (inArea && inHoverArea) {
+                updateHearts(true, e.clientX, e.clientY);
+            }
+        });
+        
+        document.addEventListener('mouseleave', () => {
+            removePointer('mouse');
+            if (inHoverArea && !clicked && hovering) {
+                inHoverArea = false;
+                showImage('normal');
+                hovering = false;
+                updateHearts(false);
+                progressContainer.style.display = 'none';
+                stopProgress();
+                resetProgress();
+            }
+        });
+        
+        // Click zone handling - shows 'click' image for 1 second (original behavior)
+        clickZone.addEventListener('click', e => {
+            e.stopPropagation();
+            clearTimeout(hoverTimer);
+            clearTimeout(progressDelayTimer);
+            
+            if (clickCooldown) return;
+            clickCooldown = true;
+            
+            showImage('click');
+            clicked = true;
+            hovering = false;
+            inHoverArea = false;
+            updateHearts(false);
+            
+            // Stop and hide progress bar
+            stopProgress();
+            resetProgress();
+            progressContainer.style.display = 'none';
+            
+            cleanupAllPointers();
+            
+            // Keep click image for 1 second (original timing)
+            setTimeout(() => {
+                showImage('normal');
+                clicked = false;
+                clickCooldown = false;
+            }, 1000);
+        });
+        
+        // Touch events
+        document.addEventListener('touchstart', e => {
+            if (!isTouch) return;
+            e.preventDefault();
+            
+            for (let i = 0; i < e.touches.length; i++) {
+                const touch = e.touches[i];
+                const id = touch.identifier;
+                
+                updatePointer(id, touch.clientX, touch.clientY);
+                
+                touchStates.set(id, {
+                    time: Date.now(),
+                    x: touch.clientX,
+                    y: touch.clientY,
+                    moved: false,
+                    inHoverArea: isInRect(touch.clientX, touch.clientY, hoverArea),
+                    hasClicked: false
+                });
+                
+                if (touchStates.get(id).inHoverArea && !clicked) {
+                    handleHover(true);
+                    updateHearts(true, touch.clientX, touch.clientY);
+                }
+            }
+        }, {passive: false});
+        
+        document.addEventListener('touchmove', e => {
+            if (!isTouch) return;
+            e.preventDefault();
+            
+            let anyTouchInHoverArea = false;
+            let hoverX = 0, hoverY = 0;
+            
+            for (let i = 0; i < e.touches.length; i++) {
+                const touch = e.touches[i];
+                const id = touch.identifier;
+                const state = touchStates.get(id);
+                
+                if (state) {
+                    updatePointer(id, touch.clientX, touch.clientY);
+                    
+                    if (Math.abs(touch.clientX - state.x) > 5 || Math.abs(touch.clientY - state.y) > 5) {
+                        state.moved = true;
+                    }
+                    
+                    const nowInHoverArea = isInRect(touch.clientX, touch.clientY, hoverArea);
+                    state.inHoverArea = nowInHoverArea;
+                    
+                    if (nowInHoverArea) {
+                        anyTouchInHoverArea = true;
+                        hoverX = touch.clientX;
+                        hoverY = touch.clientY;
+                    }
+                }
+            }
+            
+            if (anyTouchInHoverArea && !inHoverArea) {
+                inHoverArea = true;
+                handleHover(true);
+                updateHearts(true, hoverX, hoverY);
+            } else if (!anyTouchInHoverArea && inHoverArea) {
+                inHoverArea = false;
+                handleHover(false);
+                updateHearts(false);
+                
+                for (const [id, state] of touchStates) {
+                    if (state && !state.inHoverArea) {
+                        removePointer(id);
+                    }
+                }
+            } else if (anyTouchInHoverArea && inHoverArea) {
+                updateHearts(true, hoverX, hoverY);
+            }
+        }, {passive: false});
+        
+        document.addEventListener('touchend', e => {
+            if (!isTouch) return;
+            e.preventDefault();
+            
+            if (e.changedTouches.length > 2) {
+                cleanupAllPointers();
+            }
+            
+            for (let i = 0; i < e.changedTouches.length; i++) {
+                const touch = e.changedTouches[i];
+                const id = touch.identifier;
+                const state = touchStates.get(id);
+                
+                if (state && !state.hasClicked && !state.moved && Date.now() - state.time < 500) {
+                    if (isInRect(touch.clientX, touch.clientY, clickZone) && !clicked) {
+                        clearTimeout(hoverTimer);
+                        clearTimeout(progressDelayTimer);
+                        showImage('click');
+                        clicked = true;
+                        hovering = false;
+                        inHoverArea = false;
+                        state.hasClicked = true;
+                        updateHearts(false);
+                        
+                        // Stop and hide progress bar
+                        stopProgress();
+                        resetProgress();
+                        progressContainer.style.display = 'none';
+                        
+                        cleanupAllPointers();
+                        
+                        setTimeout(() => {
+                            showImage('normal');
+                            clicked = false;
+                        }, 1000);
+                        continue;
+                    }
+                }
+                
+                removePointer(id);
+                touchStates.delete(id);
+            }
+            
+            let anyTouchInHoverArea = false;
+            for (const [id, state] of touchStates) {
+                if (state && state.inHoverArea) {
+                    anyTouchInHoverArea = true;
+                    break;
+                }
+            }
+            
+            if (!anyTouchInHoverArea && !clicked && hovering) {
+                inHoverArea = false;
+                updateHearts(false);
+                setTimeout(() => {
+                    showImage('normal');
+                    hovering = false;
+                    progressContainer.style.display = 'none';
+                    stopProgress();
+                    resetProgress();
+                }, 100);
+            }
+        }, {passive: false});
+        
+        document.addEventListener('touchcancel', e => {
+            if (!isTouch) return;
+            e.preventDefault();
+            cleanupAllPointers();
+            progressContainer.style.display = 'none';
+            stopProgress();
+            resetProgress();
+        }, {passive: false});
+        
+        // Initialize
+        if (!isTouch) {
+            createPointer('mouse');
+            updatePointer('mouse', window.innerWidth/2, window.innerHeight/2);
+        }
+        showImage('normal');
+        
+        setInterval(cleanupAllPointers, 20000);
+    </script>
+</body>
+</html>
