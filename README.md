@@ -30,7 +30,7 @@
   <small>
     <small>
       <a href="https://instagram.com/hiroosy"><sub><sub><sub>Instagram</sub></sub></sub></a> <sub><sub><sub>|</sub></sub></sub>
-      <a href="https://carrd.co/hiroosy"><sub><sub><sub>Carrd</sub></sub></sub></a>
+      <a href="https://hiroosy.carrd.co/"><sub><sub><sub>Carrd</sub></sub></sub></a>
     </small>
   </small>
 </div>
