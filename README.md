@@ -13,7 +13,7 @@
 . <br>
 </p>
   
-<h3> <img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" width="17%"> 𝗛𝗜𝗥𝗢𝗢𝗦𝗬 </h3>
+><h3><img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" width="17%"> <a>𝗛𝗜𝗥𝗢𝗢𝗦𝗬</a> </h3>
 </p>
 
 <a align=left>
