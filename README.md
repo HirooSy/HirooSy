@@ -2,8 +2,6 @@
 <p align=center>
   
   <img width="100%" src="https://github.com/HirooSy/hiroosy/blob/main/ezgif.com-gif-maker.gif"/>
-  <p align=center>
-</p>
   
 <h3 align=center><img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" width="17%"> <a>𝗛𝗜𝗥𝗢𝗢𝗦𝗬</a> </h3>
 </p>
