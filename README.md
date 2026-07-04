@@ -19,9 +19,7 @@
 <div align=center>
   <details>
     <summary align=center><sub><sub><sub><sub>❛ ⁠ω ❛</sub></sub></sub></sub> ◀︎</summary>
-  <a href="#">
-  <img width="35%" align=right href="_blank" target="_blank" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HirooSy&theme=tokyonight&layout=compact"> </a>
-    <br><a href="#"><img width=35% align=right src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hiroosy&theme=tokyonight"></a>
+  <a href="#"><img width=50% align=right src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hiroosy&theme=tokyonight"></a>
   </details>
 </div>
 
