@@ -1,7 +1,7 @@
 --------
 <div align=center>
   <a href="#">
-  <img width="50%" src="https://github.com/HirooSy/hiroosy/blob/main/gif.gif"/></a><br><br>
+  <img width="80%" src="https://github.com/HirooSy/hiroosy/blob/main/gif.gif"/></a><br><br>
   <div>H I R O O S Y</div>
 </div>
 
@@ -11,8 +11,8 @@
 
 <div>
 <div align=center>
-  <a href="#"><img width=50% align=right src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hiroosy&theme=tokyonight"></a>
-    <img align=right src="https://github-readme-streak-stats.herokuapp.com/?user=HirooSy&theme=tokyonight" alt="mystreak"/>
+  <img width=65% align=right src="https://github-readme-streak-stats.herokuapp.com/?user=HirooSy&theme=tokyonight"/>
+  <a href="#"><img width=65% align=right src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hiroosy&theme=tokyonight"></a>
   
 </div>
   
@@ -20,7 +20,7 @@
   <details>
     <summary align=center><sub><sub><sub><sub>❛ ⁠ω ❛</sub></sub></sub></sub> ◀︎</summary>
       <a href="#">
-<img width="40%" align=center src="https://lanyard.kyrie25.dev/api/886175716889206864?imgStyle=circle&animatedDecoration=true&hideProfile=false&showDisplayName=true&showBanner=animated&bannerFilter=blur(3px)%20brightness(0.8)&waveColor=transparent&gradient=7E37F9-B48EF7-E568C4&waveSpotifyColor=transparent&borderRadius=20px&hideStatus=true" />
+<img width="50%" align=right src="https://lanyard.kyrie25.dev/api/886175716889206864?imgStyle=circle&animatedDecoration=true&hideProfile=false&showDisplayName=true&showBanner=animated&bannerFilter=blur(3px)%20brightness(0.8)&waveColor=transparent&gradient=7E37F9-B48EF7-E568C4&waveSpotifyColor=transparent&borderRadius=20px&hideStatus=true" />
   </a>
   </details>
 </div>
