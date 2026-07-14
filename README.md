@@ -11,18 +11,21 @@
 
 <div>
 <div align=center>
-  <a href="#">
-<img width="70%" align=right src="https://lanyard.kyrie25.dev/api/886175716889206864?imgStyle=circle&animatedDecoration=true&hideProfile=false&showDisplayName=true&showBanner=animated&bannerFilter=blur(3px)%20brightness(0.8)&waveColor=transparent&gradient=7E37F9-B48EF7-E568C4&waveSpotifyColor=transparent&borderRadius=20px&hideStatus=true" />
-  </a>
+  <a href="#"><img width=50% align=right src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hiroosy&theme=tokyonight"></a>
+    <img align=right src="https://github-readme-streak-stats.herokuapp.com/?user=HirooSy&theme=tokyonight" alt="mystreak"/>
+  
 </div>
   
 <div align=center>
   <details>
     <summary align=center><sub><sub><sub><sub>❛ ⁠ω ❛</sub></sub></sub></sub> ◀︎</summary>
-  <a href="#"><img width=50% align=right src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hiroosy&theme=tokyonight"></a>
+      <a href="#">
+<img width="40%" align=center src="https://lanyard.kyrie25.dev/api/886175716889206864?imgStyle=circle&animatedDecoration=true&hideProfile=false&showDisplayName=true&showBanner=animated&bannerFilter=blur(3px)%20brightness(0.8)&waveColor=transparent&gradient=7E37F9-B48EF7-E568C4&waveSpotifyColor=transparent&borderRadius=20px&hideStatus=true" />
+  </a>
   </details>
 </div>
 
+  
 ```
                      Im An Artist, NOT A PROGRAMMER
          ✦
@@ -30,6 +33,7 @@
 ᘏ ⑅ ᘏ ഒ zᶻ           [✓] Draw
 ꒰˶ - ˕ -꒱ ⌒)ᦱ          [✓] Sleep
 ```
+
 </div>
 
 <div align="left">
