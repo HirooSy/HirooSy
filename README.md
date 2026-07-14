@@ -20,7 +20,7 @@
   <details>
     <summary align=center><sub><sub><sub><sub>❛ ⁠ω ❛</sub></sub></sub></sub> ◀︎</summary>
       <a href="#">
-<img width="50%" align=right src="https://lanyard.kyrie25.dev/api/886175716889206864?imgStyle=circle&animatedDecoration=true&hideProfile=false&showDisplayName=true&showBanner=animated&bannerFilter=blur(3px)%20brightness(0.8)&waveColor=transparent&gradient=7E37F9-B48EF7-E568C4&waveSpotifyColor=transparent&borderRadius=20px&hideStatus=true" />
+      <img width=65% align=right src="https://metrics.lecoq.io/HirooSy?template=classic&base.header=0&gists=1&lines=1&config.timezone=America%2FToronto"/>
   </a>
   </details>
 </div>
