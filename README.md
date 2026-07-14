@@ -11,8 +11,8 @@
 
 <div>
 <div align=center>
-  <img width=65% align=right src="https://github-readme-streak-stats.herokuapp.com/?user=HirooSy&theme=tokyonight"/>
-  <a href="#"><img width=65% align=right src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hiroosy&theme=tokyonight"></a>
+  <img width=65% align=right src="https://github-readme-streak-stats.herokuapp.com/?user=HirooSy&theme=transparent&hide_border=true"/>
+  <a href="#"><img width=65% align=right src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hiroosy&theme=transparent"></a>
   
 </div>
   
@@ -26,7 +26,7 @@
 </div>
 
   
-```
+```javascript
                      Im An Artist, NOT A PROGRAMMER
          ✦
                       [x] Coding
