@@ -37,9 +37,8 @@
 </div>
 
 <div align="left">
-  <img height="15" src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>
   <a href="https://instagram.com/hiroosy"><img height="15" src="https://img.shields.io/badge/Instagram-000000?style=flat-square&logo=instagram&logoColor=white"></a>
-  <a href="https://hiroosy.carrd.co/"><img height="15" src="https://img.shields.io/badge/Carrd-000000?style=flat-square"></a>
+  <a href="https://hiroosy.carrd.co/"><img height="15" src="https://img.shields.io/badge/Carrd-000000?style=flat-square&logo=carrd&logoColor=ffffff"></a>
 </div>
 <a href="#">
 <img align=center href="#" src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=28&pause=0&color=FFFFFF&center=true&vCenter=true&width=1500&lines=--------------------------------------------------" alt="Type" /> </a>
