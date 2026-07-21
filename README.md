@@ -12,7 +12,7 @@
 <div>
 <div align=center>
   <img width=65% align=right src="https://github-readme-streak-stats.herokuapp.com/?user=HirooSy&theme=transparent&hide_border=true"/>
-  <a href="#"><img width=65% align=right src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hiroosy&theme=transparent"></a>
+  <a href="#"><img width=65% align=right src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=HirooSy&theme=transparent&hide_border=true&layout=compact"></a>
   
 </div>
   
