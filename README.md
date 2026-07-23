@@ -18,7 +18,7 @@
   
 <div align=center>
   <details>
-    <summary align=center><sub><sub><sub><sub>❛ ⁠ω ❛</sub></sub></sub></sub> ◀︎</summary>
+    <summary align=center><sub>More Info</sub></summary>
       <a href="#">
       <img width=65% align=right src="https://metrics.lecoq.io/HirooSy?template=classic&base.header=0&gists=1&lines=1&config.timezone=America%2FToronto"/>
   </a>
