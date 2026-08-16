@@ -7,7 +7,7 @@
 
 <div align=right>
   <a href="#"><img height=85 align=right src="https://github-readme-streak-stats.herokuapp.com/?user=hiroosy&hide_border=true&background=00000000&ring=333333&fire=ee4d2d&currStreakLabel=ffffff&sideLabels=999999&currStreakNum=ffffff&sideNums=999999&dates=666666"/></a>
-  <a href="#"><img height=85 align=right src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=HirooSy&theme=transparent&hide_border=true&background=0000000000&layout=compact&hide_title=true&stats_format=bytes">
+  <a href="#"><img height=65 align=right src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=HirooSy&theme=transparent&hide_border=true&background=0000000000&layout=compact&hide_title=true&stats_format=bytes">
 </a>
 </div>
 
