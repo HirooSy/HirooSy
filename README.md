@@ -1,5 +1,8 @@
 <div align=center>
   <a href="#">
+  <img width="7%" src="https://files.catbox.moe/7oopim.png"/>
+  </a><br>
+  <a href="#">
   <img width="60%" src="https://files.catbox.moe/v56h8i.png"/>
   </a><br>
 ────── · ✦ · ──────
